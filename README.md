@@ -41,6 +41,6 @@ $ python dns2proxy
 
 - If apt isntall python3-xyz doesn't work for you, use the normal pip or pip3 installer
 - Run MaNeM framework in another window to use the packet listener when using the MITM tool
-- How to use the rest of the tool are demonstrated as you engage with the MaNeM framework
+- How to use the rest of the tool are demonstrated as you engage with MaNeM framework
 - Refere to the screenshots provided in the folder MaNeM
 - You can still use wireshack as a listener or any other listener..
