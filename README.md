@@ -19,13 +19,13 @@ $ sudo apt install python3-scapy
 $ sudo apt install python3-pyfiglet
 
 
-### Launch MaNeM
+# Launch MaNeM
 
 
 $ python3 MaNeM
 
 
-#### What to do when using man in the middle tool
+# What to do when using man in the middle tool
 
 $ echo 1 /proc/sys/net/ipv4/ip_forward
 
@@ -37,7 +37,7 @@ $ sudo sslstrip
 
 $ python dns2proxy
 
-##### Other
+# Other
 
 - If apt isntall python3-xyz doesn't work for you, use the normal pip or pip3 installer
 - Run MaNeM framework in another window to use the packet listener when using the MITM tool
