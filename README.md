@@ -25,7 +25,7 @@ $ sudo apt install python3-pyfiglet
 $ python3 MaNeM
 
 
-# What to do when using man in the middle tool
+# Steps to follow before using man in the middle tool
 
 $ echo 1 /proc/sys/net/ipv4/ip_forward
 
