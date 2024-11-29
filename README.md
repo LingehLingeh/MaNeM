@@ -1,5 +1,5 @@
 # MaNeM
-A Simple ethical hacking framework that comprise of network scanner, mac-address changer and a packet sniffer
+A Simple Ethical Hacking Framework which Comprises Network Scanner, Mac-address Changer and a Packet Sniffer
 
 # Installation
 $ git clone https://github.com/LingehLingeh/MaNeM.git
