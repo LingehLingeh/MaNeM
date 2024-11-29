@@ -27,7 +27,7 @@ $ python3 MaNeM
 
 # Steps to follow before using man in the middle tool
 
-$ echo 1 /proc/sys/net/ipv4/ip_forward
+$ echo 1 > /proc/sys/net/ipv4/ip_forward
 
 $ iptables -t nat -A PREROUTING -p tcp --destination-port 80 -j REDIRECT --to-port 10000
 
