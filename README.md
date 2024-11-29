@@ -2,13 +2,20 @@
 A Simple ethical hacking framework that comprise of network scanner, mac-address changer and a packet sniffer
 
 ## Inatallation
-$ https://github.com/LingehLingeh/MaNeM.git
+$ git clone https://github.com/LingehLingeh/MaNeM.git
+
 $ git clone https://github.com/LeonardoNve/dns2proxy.git
+
 $ sudo apt install sslstrip
+
 $ sudo apt install python3-subprocess
+
 $ sudo apt install python3-re
+
 $ sudo apt install python3-colorama
+
 $ sudo apt install python3-scapy
+
 $ sudo apt install python3-pyfiglet
 
 
